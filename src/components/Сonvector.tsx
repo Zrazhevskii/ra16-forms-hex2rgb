@@ -31,7 +31,7 @@ const Сonvectors = () => {
 
         let value = e.target.value;
 
-        if (value.length < 7 || value.length > 7) {
+        if (value.length > 7) {
             setInput({
                 rgb: 'Ошибка!',
             });
